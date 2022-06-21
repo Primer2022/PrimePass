@@ -1,0 +1,52 @@
+messages:
+  reload-config: '&6&lPrimePass &8&l| &7Конфигурация конфига перезагружена!'
+  succes-give: '&6&lPrimePass &8&l| &7Вы успешно выдали игроку &a%player% %amount% &7дней к проходке!'
+  succes-set: '&6&lPrimePass &8&l| &7Вы успешно установили игроку &a%player% %amount% &7дней проходки!'
+  add-infinity: '&6&lPrimePass &8&l| &7Вы успешно выдали игроку &a%player% &7бесконечную проходку!'
+  del-infinity: '&6&lPrimePass &8&l| &cВы успешно забрали у игрока %player% бесконечную проходку!'
+  no-int: '&6&lPrimePass &8&l| &7Введёное вами количество дней не является числом!'
+  join-title: '&6&lPrimePass'
+  join-subtitle: '&fДействует до: &a%days% &fдн. &a%hours% &fчас. &a%minutes% &fмин. &a%seconds% &fсек.'
+  no-infinity: '&6&lPrimePass &8&l| &сУ игрока нету действующей бесконечной проходки!'
+  invalid-player: '&6&lPrimePass &8&l| &cНедействительный игрок!'
+  welcome-msg:
+    - '&6&lPrimePass'
+    - '&fДобро пожаловать на сервер!'
+    - '&fВаша подписка уже активна.'
+    - '&fДействует до &a%days% &fдн. &a%hours% &fчас. &a%minutes% &fмин. &a%seconds% &fсек.'
+  pass-info:
+    - '&6&lPrimePass &8&l| &7Информация по проходке'
+    - '&7Никнейм: &f%player%'
+    - '&7Осталось: &f%days% дн. %hours% час. %minutes% мин. %seconds% сек.'
+    - '&7Последняя дата выдачи: &f%date%'
+    - '&7Бесконечная проходка: &f%status%'
+  kick-reason:
+           "&6&lPrimePass
+           \n&f
+           \n&7Вы не можете подключиться к серверу
+           \n&7поскольку у вас &cот сутствует &7проходка
+           \n&7либо она уже истекла.
+           \n&f
+           \n&7Купить проходку можно в нашем магазине:
+           \n&a&lwww.example.ru"
+  no-pass:
+       "&6&lPrimePass
+       \n&f
+       \n&7Вы не можете подключиться к серверу
+       \n&7поскольку у вас &cотсутствует &7проходка
+       \n&7либо она уже истекла.
+       \n&f
+       \n&7Купить проходку можно в нашем магазине:
+       \n&a&lwww.example.ru"
+  help-player:
+    - '&6&lPrimePass &8&l| &7Помощь'
+    - '&7/primepass info - &fУзнать информацию о своей проходке'
+  help-admin:
+    - '&6&lPrimePass &8&l| &7Помощь'
+    - '&7/primepass give [игрок] [кол-во дней] - &fДобавить время действия проходки'
+    - '&7/primepass set [игрок] [кол-во дней] - &fУстановить время действия проходки'
+    - '&7/primepass addinf [игрок] - &fВыдать игроку проходку навсегда'
+    - '&7/primepass delinf [игрок] - &fЗабрать вечную проходку у игрока'
+    - '&7/primepass info - &fУзнать информацию о своей проходке'
+    - '&7/primepass info [игрока] - &fУзнать информацию о проходке игрока'
+data:
